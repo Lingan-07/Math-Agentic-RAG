@@ -1,0 +1,68 @@
+.app {
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  padding: 40px;
+  background-color: #f7f8fc;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.input-section {
+  margin: 20px 0;
+}
+
+input {
+  width: 40%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.output-section {
+  margin-top: 30px;
+}
+
+.response-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.feedback-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.feedback-buttons button {
+  font-size: 22px;
+  background-color: transparent;
+  margin: 0 10px;
+}
+
+.feedback-buttons button.active {
+  color: #28a745;
+}

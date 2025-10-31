@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Solve 2x + 3 = 7",
+    "answer": "Subtract 3 → 2x = 4 → divide by 2 → x = 2."
+  },
+  {
+    "question": "Integrate x^2",
+    "answer": "∫x² dx = (x³ / 3) + C."
+  },
+  {
+    "question": "Differentiate sin(x)",
+    "answer": "d/dx [sin(x)] = cos(x)."
+  }
+]
